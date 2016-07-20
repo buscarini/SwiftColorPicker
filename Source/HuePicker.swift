@@ -159,10 +159,10 @@ public class HuePicker: UIView {
             img.draw(in: rect)
         }
 
-        drawHueDragHandler(frame: handleRect)
+        drawHueDragHandler(handleRect)
     }
     
-    func drawHueDragHandler(frame: CGRect) {
+    func drawHueDragHandler(_ frame: CGRect) {
         
         //// Polygon Drawing
         let polygonPath = UIBezierPath()
